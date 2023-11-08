@@ -1,4 +1,5 @@
-﻿using ExemploExplorando.models;
+﻿using System.Numerics;
+using ExemploExplorando.models;
 
 Pessoa p1 = new Pessoa();
 Pessoa p2 = new Pessoa();
