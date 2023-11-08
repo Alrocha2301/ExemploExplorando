@@ -27,10 +27,10 @@ namespace ExemploExplorando.models
 
         public void ListarAlunos()
         {
-            var count = 1;
+            var count = 0;
             foreach (Pessoa aluno in Alunos)
             {
-                Console.WriteLine($"{count}) {aluno.NomeCompleto}");
+                Console.WriteLine($"{count + 1}) {aluno.NomeCompleto}");
                 count++;
             }
         }
